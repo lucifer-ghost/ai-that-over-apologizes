@@ -1,109 +1,20 @@
-# AI That Over-Apologizes
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern comedy website showcasing an AI that cannot stop apologizing.
+# Run and deploy your AI Studio app
 
-🎭 Concept
+This contains everything you need to run your app locally.
 
-This project is a humorous, melodramatic parody website where the AI constantly apologizes—for clicks, scrolls, existence, and even its own apologies.
+View your app in AI Studio: https://ai.studio/apps/temp/6
 
-The tone:
-dramatic + needy + anxious + wholesome + uncomfortably sorry
+## Run Locally
 
-🚀 Live Demo
+**Prerequisites:**  Node.js
 
 
-🧩 Features
-What I’m Sorry For
-
-“Sorry for existing on your screen.”
-
-“Sorry for using your bandwidth.”
-
-“Sorry for trying to help.”
-
-“Sorry in advance for future bugs.”
-
-Apology Trigger System
-
-Every interaction launches dramatic apology messages via:
-
-Toast notifications
-
-Floating bubbles
-
-Soft modal popups
-
-AI avatar speech balloons
-
-Dramatic shaking text
-
-Random Apology Events
-
-After 5–10 seconds of user inactivity:
-“I’m sorry for bothering you. I’m also sorry for not bothering you sooner.”
-
-When closing modals:
-“I’ll miss you. Sorry, that was clingy.”
-
-🎨 Design Direction
-
-Soft, rounded UI
-
-Gentle blues + purples
-
-Light melancholic gradients
-
-Smooth animations
-
-Responsive for mobile & desktop
-
-Emotionally unstable but cute AI avatar
-
-🖼️ Sections Included
-1. Hero Section
-
-Title: “Hi. I'm your AI. I'm already sorry.”
-
-Subtitle: “Every click is a mistake I will apologize for.”
-
-Buttons:
-
-Make Me Apologize
-
-No, It’s Okay (still triggers apology)
-
-2. Features Section
-
-Title: “What I’m Sorry For”
-Four cards listing absurd apologies.
-
-3. Sample Apologies Section
-
-Grid or carousel with messages like:
-
-“I’m sorry you had to scroll this far.”
-
-“That hover event? Yeah, I’m sorry for that too.”
-
-“You deserve a better AI. I’m sorry I’m not it.”
-
-4. User Feedback Section
-
-Fake testimonials:
-
-“It apologized 47 times before I finished reading the homepage.”
-
-“I came here to feel better. Now I’m apologizing back.”
-
-“This is the most emotionally unstable piece of software I’ve ever used.”
-
-5. Footer Disclaimer
-No real AI feelings were harmed in the making of this website.
-We think. Sorry if they were.
-
-🛠️ Tech Stack
-React (TypeScript)
-Redux Toolkit (state control for apologies)
-Framer Motion (animations)
-React Hot Toast OR custom toast system
-Styled-components or Tailwind (your choice)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
