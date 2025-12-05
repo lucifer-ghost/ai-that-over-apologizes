@@ -11,9 +11,6 @@ dramatic + needy + anxious + wholesome + uncomfortably sorry
 
 🚀 Live Demo
 
-(Add your deployment link here once deployed)
-
-https://your-demo-url.com
 
 🧩 Features
 What I’m Sorry For
